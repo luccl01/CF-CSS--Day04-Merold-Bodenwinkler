@@ -1,10 +1,16 @@
 $font-stack: Arial, sans-serif; 
 $width
 
+@media screen > content and (max-width: 600px) {
+    .content {
+        height: 350px;
+    }
+}
 .container {
-    display: flex;
-    margin-top: auto; 
-    margin-bottom: auto;
+    /* display: flex;
+    margin-top: 0 auto; 
+    margin-bottom: 0 auto;
+    height: 800px; */
 }
 
 .header {
@@ -22,16 +28,18 @@ $width
     flex-wrap: wrap;
     /* align-items: ; */
     flex-direction: column;
-    font-size: 250%;
+    font-size: 220% ;
     width: 100%;
     max-width: 1500px;
-    height: 100%;
-    max-height: 700px;
+    height: 600px ;
+    /* height: 100%;
+    min-height: 100%; */
+    max-height: 1200px;
     background-image: url(https://www.wiwo.de/images/imago0103776086h/26150822/2-format1001.jpg);
     object-fit: cover;
     background-repeat: no-repeat;
-    background-size: 1500px;
-    height: 700px ;
+    background-size: 100%;
+    
     /* height: 100%;
     max-height: 1500px;
     width: 100%;
@@ -42,12 +50,12 @@ $width
     max-width: 100%;
 }
 .footer{
-    margin-top: 0 auto;
+    display: flex;
     width: 100%;
     max-width: 1500px;
-    background-color: rgb(49, 47, 43);
-    color: rgb(247, 242, 242);
-    height: 150px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(48, 42, 42);
+    height: 100%;
 }
 .box1 {
     display: flex;
@@ -60,7 +68,7 @@ $width
 
     margin: 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 120%;
     color: white;
 }
 #left-aligned {
