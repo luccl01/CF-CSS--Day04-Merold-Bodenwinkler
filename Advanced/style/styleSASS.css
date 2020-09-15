@@ -1,4 +1,12 @@
-p {
-  border: solid 1px green; }
+footer {
+  border-left: 10px dotted #C6FFD7;
+  border-right: 10px dotted #C6FFD7;
+  text-align: center;
+  border-top: 10px lightblue solid;
+  margin: 5% 5% 0 5%; }
+  footer h3 {
+    font-size: 3em; }
+  footer p {
+    margin: 3% 5% 2% 5%; }
 
 /*# sourceMappingURL=styleSASS.css.map */
